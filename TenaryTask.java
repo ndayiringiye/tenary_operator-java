@@ -10,7 +10,7 @@ public class TenaryTask {
         System.out.print("Enter a number:");
         num = inputScanner.nextInt();
 
-        result = (num > 0 && num < 0) ? "positive" : "negative";
+        result = (num > 0) ? "positive" : (num < 0) ? "negative" : "Zero";
         System.out.println("the a number is :" + result);
         inputScanner.close();
     }
